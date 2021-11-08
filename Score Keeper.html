@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <style>
+        .winner {
+            color: green;
+        }
+
+        .loser {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ping Pong Fun</h1>
+
+    <div id='picture'>
+        <img src="https://foreignpolicyi.org/wp-content/uploads/2020/01/Play-Ping-Pong.jpg" alt="pingpong">
+        <h3>Ping Pong Score Keeper</h3>
+    </div>
+
+    <div id='scores'>
+        <h1><span id='p1Display'>0</span> to <span id='p2Display'>0</span></h1>
+
+        <p>Use the buttons below to keep score.</p>
+
+
+        <p>Playing to
+            <span>
+                <select name="limit" id="limit">
+                    <option value="">-Option-</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select>
+            </span>
+        </p>
+
+
+
+
+    </div>
+
+    <div id='btns'>
+        <button id='p1btn'>+1 Player One</button>
+        <button id='p2btn'>+1 Player Two</button>
+        <button id='resetbtn'>Reset</button>
+    </div>
+
+
+    <script src="Score Keeper CodeAlong.js"></script>
+</body>
+
+</html>
